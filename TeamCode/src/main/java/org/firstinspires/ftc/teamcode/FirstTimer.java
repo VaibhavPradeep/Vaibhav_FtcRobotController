@@ -13,7 +13,7 @@ public class FirstTimer extends LinearOpMode {
 
         waitForStart();
         while(opModeIsActive()){
-            // can be measured in millinsecond, nanoseconds or seconds
+            // can be measured in millisecond, nanoseconds or seconds
             double seconds = timer.seconds();
             double milliseconds = timer.milliseconds();
             double nanoseconds = timer.nanoseconds();
