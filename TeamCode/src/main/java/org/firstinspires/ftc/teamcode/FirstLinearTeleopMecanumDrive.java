@@ -37,7 +37,7 @@ public class FirstLinearTeleopMecanumDrive extends LinearOpMode {
             drive = gamepad1.left_stick_y * -1;
             turn = gamepad1.right_stick_x;
             strafe = gamepad1.left_stick_x;
-            final int thisIsFinal = 2;
+            final int thisIsFinal = 3;
 
             flpower = drive + turn  + strafe;
             frpower = drive - turn - strafe;
