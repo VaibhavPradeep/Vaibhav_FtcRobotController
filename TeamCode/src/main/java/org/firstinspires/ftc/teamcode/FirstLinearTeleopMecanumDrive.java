@@ -30,6 +30,7 @@ public class FirstLinearTeleopMecanumDrive extends LinearOpMode {
         frontRight.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         backLeft.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         backRight.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        int bob = 12;
 
         waitForStart();
 
