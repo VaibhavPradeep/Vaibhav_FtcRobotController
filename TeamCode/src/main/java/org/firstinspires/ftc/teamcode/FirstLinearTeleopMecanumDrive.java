@@ -30,7 +30,6 @@ public class FirstLinearTeleopMecanumDrive extends LinearOpMode {
         frontRight.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         backLeft.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         backRight.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        int bob = 12;
 
         waitForStart();
 
@@ -38,6 +37,7 @@ public class FirstLinearTeleopMecanumDrive extends LinearOpMode {
             drive = gamepad1.left_stick_y * -1;
             turn = gamepad1.right_stick_x;
             strafe = gamepad1.left_stick_x;
+            final int thisIsFinal = 2;
 
             flpower = drive + turn  + strafe;
             frpower = drive - turn - strafe;
