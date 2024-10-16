@@ -17,6 +17,7 @@ public class FirstTimer extends LinearOpMode {
             double seconds = timer.seconds();
             double milliseconds = timer.milliseconds();
             double nanoseconds = timer.nanoseconds();
+            int bob = 2;
 
             // resets to zero
             timer.reset();
