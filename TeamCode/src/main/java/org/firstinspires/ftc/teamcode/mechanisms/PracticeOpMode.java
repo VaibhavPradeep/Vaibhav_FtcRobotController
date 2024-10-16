@@ -37,6 +37,7 @@ public class PracticeOpMode extends OpMode {
         }
         else {
             board.setMotorSpeed(0);
+            telemetry.addLine("no movement");
         }
 
     }
