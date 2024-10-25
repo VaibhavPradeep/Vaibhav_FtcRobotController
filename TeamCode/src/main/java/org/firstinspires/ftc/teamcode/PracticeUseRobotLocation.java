@@ -1,7 +1,5 @@
 package org.firstinspires.ftc.teamcode;
 
-import static org.firstinspires.ftc.robotcore.external.BlocksOpModeCompanion.telemetry;
-
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -40,5 +38,6 @@ public class PracticeUseRobotLocation extends OpMode {
         telemetry.addData("location", robotLocation);
         telemetry.addData("heading", robotLocation.getHeading());
         telemetry.addData("Angle:", robotLocation.getAngle());
+
     }
 }
